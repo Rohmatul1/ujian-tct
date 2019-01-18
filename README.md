@@ -1,6 +1,7 @@
 # Dockerfile dan Contoh Penggunaannya
 
 == Pengertian Dockerfile
+
 Dockerfile merupakan skrip yang terdiri dari serangkaian perintah, instruksi yang akan dieksekusi secara otomatisasi dan berurutan untuk membangun sebuah image.
 
 == Contoh penggunaan dockerfile untuk membuat aplikasi node js. 
