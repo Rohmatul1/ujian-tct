@@ -7,7 +7,8 @@ Dockerfile merupakan skrip yang terdiri dari serangkaian perintah, instruksi yan
 
 Contoh penggunaan dockerfile untuk membuat aplikasi node js. 
 
-1. Langkah pertama buat folder dengan nama dockerummah atau bisa bebas. 2. Kemudian ke direktori aplikasi yang baru saja dibuat lalu buat file dengan nama package.json(terlampir)
+1. Langkah pertama buat folder dengan nama dockerummah atau bisa bebas. 
+2. Kemudian ke direktori aplikasi yang baru saja dibuat lalu buat file dengan nama package.json(terlampir)
 3. Kemudian membuat file index.js(terlampir)
 4. Membuat file document dockerfile lalu membuat baris instruksi dasar yang tersedia di Dockerfile.Berikut instruksi dasarnya :
 
