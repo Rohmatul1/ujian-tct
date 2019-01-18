@@ -2,7 +2,7 @@
 
 == Pengertian Dockerfile
 
-Dockerfile merupakan skrip yang terdiri dari serangkaian perintah, instruksi yang akan dieksekusi secara otomatisasi dan berurutan untuk membangun sebuah image.
+> Dockerfile merupakan skrip yang terdiri dari serangkaian perintah, instruksi yang akan dieksekusi secara otomatisasi dan berurutan untuk membangun sebuah image.
 
 == Contoh penggunaan dockerfile untuk membuat aplikasi node js. 
 
@@ -13,29 +13,29 @@ Dockerfile merupakan skrip yang terdiri dari serangkaian perintah, instruksi yan
 
 * FROM node:6.11.2-alpine
 
-FROM adalah instruksi tahap awal ketika menginisialisasi project baru dengan docker.
+> FROM adalah instruksi tahap awal ketika menginisialisasi project baru dengan docker.
 
 * WORKDIR /app
 
-WORKDIR adalah instruksi untuk mendefinisikan direktori kerja atau area kerja yang nantinya seluruh instruksi yang ada di Dockerfile akan di jalankan di area kerja yang kita setup di WORKDIR.
+> WORKDIR adalah instruksi untuk mendefinisikan direktori kerja atau area kerja yang nantinya seluruh instruksi yang ada di Dockerfile akan di jalankan di area kerja yang kita setup di WORKDIR.
 
 * COPY package.json /app
 
-COPY adalah instruksi untuk meng copy file baru atau direktori dari <src> dan menambahkannya ke filesystem container path <dest>.
+> COPY adalah instruksi untuk meng copy file baru atau direktori dari <src> dan menambahkannya ke filesystem container path <dest>.
 
 * RUN npm install
 
-RUN adalah instruksi untuk mengekesekusi perintah, misalnya seperti perintah install nodejs dan lain sebagainya.
+> RUN adalah instruksi untuk mengekesekusi perintah, misalnya seperti perintah install nodejs dan lain sebagainya.
 
 * COPY . /app
 
 * EXPOSE 8080
 
-EXPOSE adalah perintah untuk me listen nework port .
+> EXPOSE adalah perintah untuk me listen nework port .
 
 * CMD [ "npm", "start" ]
 
-CMD adalah instruksi untuk mengeksekusi container. 
+> CMD adalah instruksi untuk mengeksekusi container. 
 
 5. Selanjutnya membuat container image dengan menuju ke direktori dimana menyimpan dockerfile lalu untuk jalankan perintah "docker build -t <Rohmatul1>/dockerummah".
 
